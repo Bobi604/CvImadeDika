@@ -6,7 +6,7 @@ const cvData = {
     email: "made.bobi@gmail.com",
   },
   dataPribadi: {
-    ttl: "Br. Pande, Pejeng",
+    ttl: "Br. Pande, Pejeng, 2 April 2005",
     alamat: "Br. Batulumbang, Bedulu",
     jenisKelamin: "Laki-Laki",
     kewarganegaraan: "Indonesia",
