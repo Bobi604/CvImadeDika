@@ -14,8 +14,8 @@ const cvData = {
   },
   pendidikan: [
     {
-      smk: "SMK Negeri 1 Gianyar",
-      jurusansmk: "Teknik Komputer dan Jaringan",
+      smk: "SMK Negeri 1 Tampaksiring",
+      jurusansmk: "Perhotelan",
       kampus: "Kampus Alfaprima",
       jurusan: "D2 Manajemen Informatika",
     },
@@ -42,7 +42,7 @@ const cvData = {
   ],
   keahlian: [
     "Mengoperasikan sistem operasi Windows & Office",
-    "Dasar-dasar pemrograman dengan(HTML, JS, CSS, react dan tailwindcss)",
+    "Dasar-dasar pemrograman dengan (HTML, CSS, PHP, JS, React, Tailwindcss dan Laravel)",
     "Membuat dan mengelola database",
     "Penggunaan wordpress",
     "Instalasi dan troubleshooting software komputer",
