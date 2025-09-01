@@ -42,7 +42,7 @@ const cvData = {
   ],
   keahlian: [
     "Mengoperasikan sistem operasi Windows & Office",
-    "Dasar-dasar pemrograman dengan (HTML, CSS, PHP, JS, React, Tailwindcss dan Laravel)",
+    "pemrograman dengan (HTML, CSS, PHP, JS, React, Tailwindcss dan Laravel)",
     "Membuat dan mengelola database",
     "Penggunaan wordpress",
     "Instalasi dan troubleshooting software komputer",
