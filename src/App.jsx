@@ -1,12 +1,16 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CV from "./CV";
+import Bg from "./assets/bg.png"
 
 function App() {
   const [showCV, setShowCV] = useState(false);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-dark via-black to-dark flex justify-center items-center">
+      
+        <img src={Bg} alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-20 z-0 pointer-events-none"/>
+  
       <AnimatePresence mode="wait">
         {!showCV ? (
           <motion.div
@@ -32,7 +36,8 @@ function App() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.7 }}
             >
-              CV <span className="text-gold font-semibold">I MADE DIKA</span> - Web Developer
+              CV <span className="text-gold font-semibold">I MADE DIKA</span> -
+              Web Developer
             </motion.p>
 
             <motion.button
@@ -50,7 +55,7 @@ function App() {
             initial={{ opacity: 0, x: 100 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -100 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 2 }}
             className="w-full"
           >
             <CV />

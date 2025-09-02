@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { User, BookOpen, Briefcase, Star } from "lucide-react";
 import Profil from "./assets/profil.jpg";
 
+
 function CV() {
   return (
     <motion.div
