@@ -1,16 +1,19 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CV from "./CV";
-import Bg from "./assets/bg.png"
+import Bg from "./assets/bg.png";
 
 function App() {
   const [showCV, setShowCV] = useState(false);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-dark via-black to-dark flex justify-center items-center">
-      
-        <img src={Bg} alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-20 z-0 pointer-events-none"/>
-  
+    <div className="min-h-screen bg-gradient-to-br from-dark via-zinc-600 to-zinc-700 flex justify-center items-center">
+      <img
+        src={Bg}
+        alt="Background"
+        className="absolute inset-0 w-400 h-full object-cover opacity-10 z-0 pointer-events-none"
+      />
+
       <AnimatePresence mode="wait">
         {!showCV ? (
           <motion.div
